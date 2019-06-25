@@ -20,7 +20,7 @@ namespace HelloWorld
         {
             if (Balance >= amount)
             {
-                Balance -= amount;
+                Balance += amount;
             }
             else
             {
